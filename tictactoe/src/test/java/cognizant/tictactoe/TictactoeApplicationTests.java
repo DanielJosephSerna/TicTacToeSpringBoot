@@ -1,5 +1,6 @@
 package cognizant.tictactoe;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -8,6 +9,10 @@ class TictactoeApplicationTests {
 
 	@Test
 	void contextLoads() {
+		final String expected = "happyTest";
+		final String actual = "happyTest";
+		Assertions.assertEquals(expected, actual);
+
 	}
 
 }
